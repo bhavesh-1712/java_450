@@ -1,6 +1,10 @@
 package array;
 
-public class program_1 {
+/**
+ * Reverse the array
+ */
+
+class program_1 {
     //this method print array
     static void printArray(int arr[], int arrLength){
         
@@ -35,3 +39,10 @@ public class program_1 {
         printArray(arr, arr.length);
     }
 }
+
+/**
+ ***** OUTPUT ***** 
+ 2 3 4 5 6 7
+Reverse array is :
+ 7 6 5 4 3 2
+*/

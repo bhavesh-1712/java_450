@@ -1,6 +1,10 @@
 package array;
 
-public class program_2 {
+/**
+ * Find the minimum and maximum in an array
+ */
+
+class program_2 {
     static class MinMax{
         int min;
         int max;
@@ -41,3 +45,9 @@ public class program_2 {
 
     }
 }
+
+/**
+ ***** OUTPUT ***** 
+Minimum element is 1
+Maximum element is 10000
+*/
