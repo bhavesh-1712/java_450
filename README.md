@@ -3,3 +3,7 @@
 <h2>Array Problems</h2>
 <p>1. Reverse Array</p>
 <p>2. Find minimum and maximum element in array</p>
+<p>3. Find the 'kth' minimum and maximum in an array</p>
+<p>4. Given an array of size N containing only 0s, 1s, and 2s; sort the array in ascending order.</p>
+<p>5. Move all the negative elements to one side of an array.</p>
+<p>6. Find the union and intersection of two sorted arrays</p>
