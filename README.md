@@ -10,3 +10,5 @@
 <p>7. Write a program to cyclically rotate an array by one.</p>
 <p>8. Find largest sum contiguous subarray.</p>
 <p>9. Minimise the maximum difference between heights.</p>
+<p>10. Minimum no. of Jumps to reach end of an array</p>
+<p>11. Find duplicate in an array of N+1 Integers</p>
