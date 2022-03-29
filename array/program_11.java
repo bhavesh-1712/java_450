@@ -33,6 +33,7 @@ public class program_11 {
 
         printRepeating(arr, n);
         sc.close();
+            
     }
 }
 /**
