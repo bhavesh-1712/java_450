@@ -13,3 +13,5 @@
 <p>10. Minimum no. of Jumps to reach end of an array</p>
 <p>11. Find duplicate in an array of N+1 Integers</p>
 <p>12. Merge Without Extra Space</p>
+<p>13. Kadane's Algorithm</p>
+<p>14. Merge Interval</p>
