@@ -15,3 +15,5 @@
 <p>12. Merge Without Extra Space</p>
 <p>13. Kadane's Algorithm</p>
 <p>14. Merge Interval</p>
+<p>15. Next permutation</p>
+<p>16. Count Inversion</p>
