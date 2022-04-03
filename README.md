@@ -17,3 +17,5 @@
 <p>14. Merge Interval</p>
 <p>15. Next permutation</p>
 <p>16. Count Inversion</p>
+<p>17. Best time to buy sell stock</p>
+<p>18. Find all pairs on integer array whose sum is equal to given number</p>
