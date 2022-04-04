@@ -19,3 +19,5 @@
 <p>16. Count Inversion</p>
 <p>17. Best time to buy sell stock</p>
 <p>18. Find all pairs on integer array whose sum is equal to given number</p>
+<p>19. Find common element in 3 sorted arrys</p>
+<p>20. Rearrange the array in alternating positive and negative items with O(1) extra space</p>
