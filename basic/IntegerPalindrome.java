@@ -34,3 +34,14 @@ public class IntegerPalindrome {
         sc.close();
     }
 }
+/**
+ * OUTPUT
+ * 
+ * 121
+ * 121 is palindrome
+ * 
+ * =====================================
+ * 
+ * 1234
+ * 1234 is not palindrome
+ */
