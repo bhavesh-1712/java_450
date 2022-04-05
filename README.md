@@ -8,7 +8,9 @@
 <p><a href="basic/FibonacciSeriesRecursion.java">5. Find fibonacci series using recursion method</a></p>
 <p><a href="basic/IntegerPalindrome.java">6. Check whether integer palindrome or not</a></p>
 <p><a href="basic/PrimeNumber.java">7. Write a Java program to check if a given number is prime or not.</a></p>
-<p><a href="basic/StringPalindrome.java"> 8. Check whether string palindrome or not</a></p>
+<p><a href="basic/StringPalindrome.java">8. Check whether string palindrome or not</a></p>
+<p><a href="basic/ReverseString.java">9. Reverse String</a></p>
+<p><a href="basic/ReverseStringWithoutUsingInbuiltFun.java">10. Reverse string without using inbuit function</a></p>
 
 <h2>Array Problems</h2>
 <p>1. Reverse Array.</p>
