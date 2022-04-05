@@ -1,5 +1,7 @@
 # 450 Questions And It's Solution In Java
 
+<h2>Basic Problems</h2>
+
 <h2>Array Problems</h2>
 <p>1. Reverse Array.</p>
 <p>2. Find minimum and maximum element in array.</p>
@@ -21,3 +23,5 @@
 <p>18. Find all pairs on integer array whose sum is equal to given number</p>
 <p>19. Find common element in 3 sorted arrys</p>
 <p>20. Rearrange the array in alternating positive and negative items with O(1) extra space</p>
+<p>21. Find if there is any subarray with sum equal to 0</p>
+<p>22. Find factorial of large number</p>
