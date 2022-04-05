@@ -1,8 +1,8 @@
 # 450 Questions And It's Solution In Java
 
 <h2>Basic Problems</h2>
-<a href="basic/ArmstrongNumber.java">1. Check whether if the given number is Armstrong number or not.</a><br>
-<a href="basic/ArmstrongNoWithoutUsingInbuiltFun.java">2. Check whether if the given number is armstrong or not without using inbuilt function</a><br>
+<p><a href="basic/ArmstrongNumber.java">1. Check whether if the given number is Armstrong number or not.</a><p>
+<a href="basic/ArmstrongNoWithoutUsingInbuiltFun.java">2. Check whether if the given number is Armstrong or not without using inbuilt function</a><br>
 <a href="basic/FibonacciNumber.java">3. Find fibonacci number using recursion method</a><br>
 <a href="basic/FibonacciSeriesIterative.java">4. Find fibonacci series using iterative method</a><br>
 <a href="basic/FibonacciSeriesRecursion.java">5. Find fibonacci series using recursion method</a><br>
