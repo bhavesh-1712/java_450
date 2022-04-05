@@ -1,14 +1,14 @@
 # 450 Questions And It's Solution In Java
 
 <h2>Basic Problems</h2>
-<a href="basic/ArmstrongNumber.java">Check whether if the given number is Armstrong number or not.</a>
-<a href="">Check whether if the given number is armstrong or not without using inbuilt function</a>
-<a href="">Find fibonacci number using recursion method</a>
-<a href="">Find fibonacci series using iterative method</a>
-<a href="">Find fibonacci series using recursion method</a>
-<a href="">Check whether integer palindrome or not</a>
-<a href="">Write a Java program to check if a given number is prime or not.</a>
-<a href="">Check whether string palindrome or not</a>
+<a href="basic/ArmstrongNumber.java">1. Check whether if the given number is Armstrong number or not.</a><br>
+<a href="basic/ArmstrongNoWithoutUsingInbuiltFun.java">2. Check whether if the given number is armstrong or not without using inbuilt function</a><br>
+<a href="basic/FibonacciNumber.java">3. Find fibonacci number using recursion method</a><br>
+<a href="basic/FibonacciSeriesIterative.java">4. Find fibonacci series using iterative method</a><br>
+<a href="basic/FibonacciSeriesRecursion.java">5. Find fibonacci series using recursion method</a><br>
+<a href="basic/IntegerPalindrome.java">6. Check whether integer palindrome or not</a><br>
+<a href="basic/PrimeNumber.java">7. Write a Java program to check if a given number is prime or not.</a><br>
+<a href="basic/StringPalindrome.java"> 8. Check whether string palindrome or not</a><br>
 
 <h2>Array Problems</h2>
 <p>1. Reverse Array.</p>
