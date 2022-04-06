@@ -11,6 +11,8 @@
 <p><a href="basic/StringPalindrome.java">8. Check whether string palindrome or not</a></p>
 <p><a href="basic/ReverseString.java">9. Reverse String</a></p>
 <p><a href="basic/ReverseStringWithoutUsingInbuiltFun.java">10. Reverse string without using inbuit function</a></p>
+<p><a href="basic/FactorialUsingIterative.java">11. Find factorial using iterative method</a></p>
+<p><a href="basic/FactorialUsingRecursion.java">12. Find factorial using recursion method</a></p>
 
 <h2>Array Problems</h2>
 <p>1. Reverse Array.</p>
