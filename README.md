@@ -35,3 +35,5 @@
 <p>20. Rearrange the array in alternating positive and negative items with O(1) extra space</p>
 <p>21. Find if there is any subarray with sum equal to 0</p>
 <p>22. Find factorial of large number</p>
+<p>23. Find maximum product subarray</p>
+<p>24. Find longest consecutive subsequence</p>
