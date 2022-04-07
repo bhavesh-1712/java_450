@@ -39,3 +39,5 @@
 <p>22. Find factorial of large number</p>
 <p>23. Find maximum product subarray</p>
 <p>24. Find longest consecutive subsequence</p>
+<p>25. Given an array of size n and a number k, find all elements that appear more than "n/k" times</p>
+<p>26. Maximum profit by buying and selling a share at most twice</p>
