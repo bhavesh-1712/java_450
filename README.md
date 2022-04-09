@@ -43,3 +43,5 @@
 <p>26. Maximum profit by buying and selling a share at most twice</p>
 <p>27. Find whether an array is subset of another array</p>
 <p>28. Find the triplet that sum to a given value</p>
+<p>29. Trapping rain water problem</p>
+<p>30. Chocolate distribution problem</p>
