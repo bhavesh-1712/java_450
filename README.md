@@ -45,3 +45,5 @@
 <p>28. Find the triplet that sum to a given value</p>
 <p>29. Trapping rain water problem</p>
 <p>30. Chocolate distribution problem</p>
+<p>31. Smallest subarray with sum greater than a given value</p>
+<p>32. Three way partitioning of an array around a given value</p>

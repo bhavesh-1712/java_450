@@ -35,3 +35,9 @@ public class program_30 {
               
     }
 }
+/**
+ * OUTPUT
+ * 
+ * Minimum difference is 10
+ * 
+ */
