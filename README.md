@@ -47,3 +47,5 @@
 <p>30. Chocolate distribution problem</p>
 <p>31. Smallest subarray with sum greater than a given value</p>
 <p>32. Three way partitioning of an array around a given value</p>
+<p>33. Minimum swaps required bring elements less than or equal to K together</p>
+<p>34. Minimum number of operations required to make an array palindrome</p>
