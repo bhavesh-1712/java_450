@@ -59,3 +59,23 @@
 <p><a href="array/program_34.java">34. Minimum number of operations required to make an array palindrome</a></p>
 <p><a href="array/program_35.java">35. Median of 2 sorted arrays of equal size</a></p>
 <p><a href="array/program_36.java">36. Median of 2 sorted arrays of different size</a></p>
+
+<h2>Matrix Problems</h2>
+<p><a href="">1. Spiral traversal on a matrix</a></p>
+<p><a href="">2. Search element in a matrix</a></p>
+<p><a href="">3. Find median in a row wise sorted matrix</a></p>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
+<p><a href=""></a></p>
