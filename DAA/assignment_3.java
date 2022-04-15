@@ -41,11 +41,11 @@ public class assignment_3
 		{
 			System.out.print(a[i] + " ");
 		}
-		
+		sc.close();
 		System.out.println();
 		
 		sol(a, n);
-		sc.close();
+		
 		System.out.println("\nEnd of Program");
 	}
 

@@ -64,9 +64,9 @@
 <p><a href="">1. Spiral traversal on a matrix</a></p>
 <p><a href="">2. Search element in a matrix</a></p>
 <p><a href="">3. Find median in a row wise sorted matrix</a></p>
-<p><a href=""></a></p>
-<p><a href=""></a></p>
-<p><a href=""></a></p>
+<p><a href="">4. Find the row with maximum number of 1's</a></p>
+<p><a href="">5. Print elements in sorted order using row-column wise sorted matrix</a></p>
+<p><a href="">6. Maximum size rectangle </a></p>
 <p><a href=""></a></p>
 <p><a href=""></a></p>
 <p><a href=""></a></p>
