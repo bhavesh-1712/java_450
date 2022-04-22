@@ -61,16 +61,18 @@
 <p><a href="array/program_36.java">36. Median of 2 sorted arrays of different size</a></p>
 
 <h2>Matrix Problems</h2>
-<p><a href="">1. Spiral traversal on a matrix</a></p>
-<p><a href="">2. Search element in a matrix</a></p>
-<p><a href="">3. Find median in a row wise sorted matrix</a></p>
-<p><a href="">4. Find the row with maximum number of 1's</a></p>
-<p><a href="">5. Print elements in sorted order using row-column wise sorted matrix</a></p>
-<p><a href="">6. Maximum size rectangle </a></p>
-<p><a href=""></a></p>
-<p><a href=""></a></p>
-<p><a href=""></a></p>
-<p><a href=""></a></p>
+<p><a href="matrix/program_1.java">1. Spiral traversal on a matrix</a></p>
+<p><a href="matrix/program_2.java">2. Search element in a matrix</a></p>
+<p><a href="matrix/program_3.java">3. Find median in a row wise sorted matrix</a></p>
+<p><a href="matrix/program_4.java">4. Find the row with maximum number of 1's</a></p>
+<p><a href="matrix/program_5.java">5. Print elements in sorted order using row-column wise sorted matrix</a></p>
+<p><a href="matrix/program_6.java">6. Maximum size rectangle </a></p>
+<p><a href="matrix/program_7.java">7. Find specific pair in matrix</a></p>
+<p><a href="matrix/program_8.java">8. Rotate matrix by 90 degree</a></p>
+<p><a href="matrix/program_9.java">9. Kth smallest element in a row-column wise sorted matrix</a></p>
+<p><a href="matrix/program_10.java">10. Common elements in all rows of given matrix</a></p>
+
+<h2>String Problems</h2>
 <p><a href=""></a></p>
 <p><a href=""></a></p>
 <p><a href=""></a></p>
