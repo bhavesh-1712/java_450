@@ -1,33 +1,43 @@
 package string;
 
-import java.security.KeyStore.Entry;
 import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.HashSet;
+import java.util.LinkedHashSet;
 
 /**
  * Count and say problem
  */
 public class program_7 {
-    static String replaceChar(String str, char ch, int index){
-        return str.substring(0, index) + ch + str.substring(index + 1);
-    }
-    static String countAndSay(char[] charArr){
-        StringBuilder result = new StringBuilder();
+    static String countAndSay(char[] str, int n) {
+        HashMap<Character, Integer> countChar = new HashMap<>();
+        HashSet<Character> s = new LinkedHashSet<>(n - 1);//hash set doesn't allow repatition of element
 
-        for(char ch : charArr){
-            if(result.indexOf(ch)){
-               result.append(1);
-               result.append(ch);
-            }else{
-                int val = result.charAt(result.indexOf(ch)) + 1;//old value
-                result = replaceChar(result, (char)val, result.indexOf(ch));
-            }
+        String result = "";
+
+        for(int i = 0; i < n; i++){
+            if(!countChar.containsKey(str[i]))
+                countChar.put(str[i], 1);
+            else
+                countChar.put(str[i], countChar.get(str[i]) + 1);
+            
+            s.add(str[i]);
         }
-       return result;
+
+        for(Character ch : s){
+            result += String.valueOf(countChar.get(ch) + String.valueOf(ch));
+        }
+
+        return result;
     }
+
     public static void main(String[] args) {
         String str = "3322251";
-        System.out.println("Count and say of 3322251 is "+ countAndSay(str.toCharArray())); 
+        System.out.println("Count and say of 3322251 is " + countAndSay(str.toCharArray(), str.length()));
     }
 }
+/**
+ * OUTPUT
+ * 
+ * Count and say of 3322251 is 23321511
+ * 
+ */
