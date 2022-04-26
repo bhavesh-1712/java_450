@@ -3,7 +3,7 @@ package basic;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
-
+ 
 public class AFourTest {
     static void countDomainName(String[] arr, int length){
         Map<String,Integer> domain = new HashMap<String,Integer>();

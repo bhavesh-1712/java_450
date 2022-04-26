@@ -79,10 +79,10 @@
 <p><a href="">4. Why strings are immutable in java ?</a></p>
 <p><a href="">5. Write a code to check whether one string is a rotation of another</a></p>
 <p><a href="">6. Write a program to check whether a strings are valid shuffle of two string or not</a></p>
-<p><a href="">7. </a></p>
-<p><a href="">8. </a></p>
-<p><a href="">9. </a></p>
-<p><a href="">10. </a></p>
+<p><a href="">7. Count and say problem</a></p>
+<p><a href="">8. Write a program to find longest palindrome in a string. (longest palindrome substring)</a></p>
+<p><a href="">9. Find longest recurring subsequence in string</a></p>
+<p><a href="">10. Print all subsequences of a string</a></p>
 <p><a href="">11. </a></p>
 <p><a href="">12. </a></p>
 <p><a href="">13. </a></p>
