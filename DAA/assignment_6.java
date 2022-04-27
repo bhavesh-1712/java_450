@@ -1,80 +1,82 @@
 package DAA;
+
+import java.util.*;
+
 /**
  * Write a recursive program to find the solution of placing n queens on chess board so that no queen takes each other 
  * (backtracking)
  */
 public class assignment_6 {
-    final int N = 4;
-
-    void printSolution(int board[][]){
-        for(int i = 0; i < N; i++){
-            for(int j = 0; j < N; j++)
-                System.out.print(" "+board[i][j]+" ");
-            
-            System.out.println();
+    public static void p(int[][] a, int n) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                System.out.print(a[i][j]);
+            }
+            System.out.print("\n");
         }
-            
     }
 
-    boolean isSafe(int board[][], int row, int col){
-        int i, j ;
+    public static boolean ch(int[][] a, int row, int col, int n) {
+        int i, j;
 
-        /**Check row on left side */
-        for(i = 0; i < col; i++)
-            if(board[row][i] == 1)
+        for (j = 0; j < col; j++) {
+            if (a[row][j] == 1) {
                 return false;
-
-        /**Check left side upper diagonal */
-        for(i = row , j = col; i >= 0 && j >= 0; i--, j--)
-            if(board[i][j] == 1)
-                return false;
-
-        /**Check left side lower diagonal */
-        for(i = row, j = col; i < N && j >= 0; i++, j--)
-            if(board[i][j] == 1)
-                return false;
-
-        return true;
-    }
-
-    boolean solveNQUtil(int board[][], int col){
-        
-        if(col >= N)
-            return true;
-
-        for(int i = 0; i < N; i++){
-            if(isSafe(board, i, col)){
-
-                board[i][col] = 1;
-
-                if(solveNQUtil(board, col + 1) == true)
-                    return true;
-                
-                board[i][col] = 0;
             }
         }
 
-        return false;
-    }
-
-    boolean solveNQ(){
-        int board[][] = {{ 0, 0, 0, 0},
-                         { 0, 0, 0, 0},
-                         { 0, 0, 0, 0},
-                         { 0, 0, 0, 0}};
-        
-        if(solveNQUtil(board, 0) == false){
-            System.out.print("Soution does not exist");
-            return false;
+        for (i = row, j = col; i >= 0 && j >= 0; j--, i--) {
+            if (a[i][j] == 1) {
+                return false;
+            }
         }
 
-        printSolution(board);
+        for (i = row, j = col; i < n && j >= 0; i++, j--) {
+            if (a[i][j] == 1) {
+                return false;
+            }
+        }
         return true;
     }
 
-    public static void main(String[] args) {
-        assignment_6 q = new assignment_6();
-        q.solveNQ();    
+    public static boolean bt(int[][] a, int c, int n) {
+        if (c >= n) {
+            return true;
+        }
+
+        for (int i = 0; i < n; i++) {
+            if (ch(a, i, c, n)) {
+                a[i][c] = 1;
+
+                if (bt(a, c + 1, n)) {
+                    return true;
+                }
+
+                a[i][c] = 0;
+            }
+
+        }
+        return false;
     }
-    
+
+    public static void nq(int n) {
+        int a[][] = new int[n][n];
+
+        if (!bt(a, 0, n)) {
+            System.out.println("\nSoln Doesn't Exist!");
+        }
+
+        else {
+            System.out.println("\nSoln is:");
+            p(a, n);
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("\nEnter #Queens:");
+        int n = sc.nextInt();
+        nq(n);
+        sc.close();
+    }
 }

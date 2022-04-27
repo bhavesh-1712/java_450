@@ -83,9 +83,9 @@
 <p><a href="">8. Write a program to find longest palindrome in a string. (longest palindrome substring)</a></p>
 <p><a href="">9. Find longest recurring subsequence in string</a></p>
 <p><a href="">10. Print all subsequences of a string</a></p>
-<p><a href="">11. </a></p>
-<p><a href="">12. </a></p>
-<p><a href="">13. </a></p>
+<p><a href="">11. Print all permutations of the given string</a></p>
+<p><a href="">12. Split the binary string into two substring with equal 0's and 1's</a></p>
+<p><a href="">13. Word Wrap Problem</a></p>
 <p><a href="">14. </a></p>
 <p><a href="">15. </a></p>
 <p><a href="">16. </a></p>

@@ -1,88 +1,52 @@
 package DAA;
+
+import java.util.*;
+
 /**
  * Write a non-recursive program to check whether Hamiltonian path exists in undirected graph or not. If exists print it. 
  * (backtracking).
  */
 public class assignment_7 {
-    final int V = 5;
-    int path[];
+    static void ham(int a[][], int n, int e) {
+        Stack<Integer> S = new Stack<Integer>();
+        S.push(0);
 
-    boolean isSafe(int v, int graph[][], int path[], int pos){
-        if(graph[path[pos - 1]][v] == 0)
-            return false;
+        for (int i = 0; i < n; i++) {
+            int z = i;
 
-        for(int i = 0; i < pos; i++)
-            if(path[i] == v)
-                return false;
-        
-        return true;
-    }
-
-    boolean hamCycleUtil(int graph[][], int path[], int pos){
-        if(pos == V){
-            if(graph[path[pos - 1]][path[0]] == 1)
-                return true;
-            else
-                return false;
-        }
-
-        for(int v = 1; v < V; v++){
-            if(isSafe(v, graph, path, pos)){
-                path[pos] = v;
-
-                if(hamCycleUtil(graph, path, pos + 1) == true)
-                    return true;
-                
-                path[pos] = -1;
+            for (int j = (z + 1); j < n; j++) {
+                if (a[z][j] == 1 && !S.contains(j)) {
+                    S.push(j);
+                    z = j;
+                }
             }
         }
 
-        return false;    
+        if (S.size() < n) {
+            System.out.println("\nHamilton Path doesn't Exist!");
+        }else {
+            System.out.println("\nHamilton Path is:");
+            S.push(S.get(0));
+            System.out.println(S);
+        }
     }
 
-    int hamCycle(int graph[][]){
-        path = new int[V];
-        for(int i = 0; i < V ; i++)
-            path[i] = -1;
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         
-        path[0] = 0;
+        System.out.println("\nEnter #Vertices & #Edges:");
+        int i, s, d, n = sc.nextInt(), e = sc.nextInt();
+        System.out.println("\nEnter " + e + " Edges:");
+        int arr[][] = new int[n][n];
 
-        if(hamCycleUtil(graph, path, 1) == false){
-            System.out.println("Solution does not exist");
-            return 0;
+        for (i = 0; i < e; i++) {
+            s = sc.nextInt();
+            d = sc.nextInt();
+            arr[s][d] = arr[d][s] = 1;
         }
 
-        printSolution(path);
-        return 1;
+        ham(arr, n, e);
+        sc.close();
     }
 
-    void printSolution(int path[]){
-        System.out.println("Solution Exists: Following is one Hamiltonian Cycle");
-        for (int i = 0; i < V; i++)
-            System.out.print(" " + path[i] + " ");
- 
-        System.out.println(" " + path[0] + " ");
-    }
-
-    public static void main(String args[]){
-        assignment_7 hamiltonian = new assignment_7();
-
-        int graph1[][] = {{0, 1, 0, 1, 0},
-            {1, 0, 1, 1, 1},
-            {0, 1, 0, 0, 1},
-            {1, 1, 0, 0, 1},
-            {0, 1, 1, 1, 0},
-        };
- 
-        hamiltonian.hamCycle(graph1);
- 
-        int graph2[][] = {{0, 1, 0, 1, 0},
-            {1, 0, 1, 1, 1},
-            {0, 1, 0, 0, 1},
-            {1, 1, 0, 0, 0},
-            {0, 1, 1, 0, 0},
-        };
- 
-        hamiltonian.hamCycle(graph2);
-    }
 }
