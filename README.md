@@ -86,10 +86,10 @@
 <p><a href="">11. Print all permutations of the given string</a></p>
 <p><a href="">12. Split the binary string into two substring with equal 0's and 1's</a></p>
 <p><a href="">13. Word Wrap Problem</a></p>
-<p><a href="">14. </a></p>
-<p><a href="">15. </a></p>
-<p><a href="">16. </a></p>
-<p><a href="">17. </a></p>
+<p><a href="">14. Edit distance problem</a></p>
+<p><a href="">15. Find next greater number with same set of digits</a></p>
+<p><a href="">16. Balanced parenthesis problem</a></p>
+<p><a href="">17. Word break problem</a></p>
 <p><a href="">18. </a></p>
 <p><a href="">19. </a></p>
 <p><a href="">20. </a></p>
