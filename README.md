@@ -92,8 +92,8 @@
 <p><a href="">17. Word break problem</a></p>
 <p><a href="">18. Rabin carp algorithm</a></p>
 <p><a href="">19. KMP Algorithm</a></p>
-<p><a href="">20. </a></p>
-<p><a href="">21. </a></p>
+<p><a href="">20. Convert a sentence into its equivalent mobile numeric keypad sequence.</a></p>
+<p><a href="">21. Minimum number of bracket reversals needed to make an expression balanced</a></p>
 <p><a href="">22. </a></p>
 <p><a href="">23. </a></p>
 <p><a href="">24. </a></p>
