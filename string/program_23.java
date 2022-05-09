@@ -1,7 +1,7 @@
 package string;
 
 /**
- * Count of number of given string in 2D character arrsy
+ * Count of number of given string in 2D character array
  */
 public class program_23 {
     static int internalSearch(String needle, int row, int col, String hay[], int row_max, int col_max, int xx){

@@ -94,10 +94,10 @@
 <p><a href="">19. KMP Algorithm</a></p>
 <p><a href="">20. Convert a sentence into its equivalent mobile numeric keypad sequence.</a></p>
 <p><a href="">21. Minimum number of bracket reversals needed to make an expression balanced</a></p>
-<p><a href="">22. </a></p>
-<p><a href="">23. </a></p>
-<p><a href="">24. </a></p>
-<p><a href="">25. </a></p>
+<p><a href="">22. Count all palindromic subsequence in a given string</a></p>
+<p><a href="">23. Count of number of given string in 2D character array</a></p>
+<p><a href="">24. Search a word in a 2D grid of characters. </a></p>
+<p><a href="">25. Boyer Moore Algorithm for pattern searching.</a></p>
 <p><a href="">26. </a></p>
 <p><a href="">27. </a></p>
 <p><a href="">28. </a></p>
