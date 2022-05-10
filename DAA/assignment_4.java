@@ -2,48 +2,39 @@ package DAA;
 
 import java.util.*;
 
+/**
+ * implement longest common subsequence (Dynamic programming)
+ * 
+ * time complexity O(n * m)
+ * 
+ * Note : Since we are using two for loops for both the strings ,
+ * therefore the time complexity of finding the longest common subsequence 
+ * using dynamic programming approach is O(n * m) where n and m are the lengths of the strings.
+ */
 public class assignment_4
 {
-	static int lcs(String a, String b, int m, int n, int dp[][])
-	{
+	static int lcs(char[] a, char[] b, int m, int n){
 		if(m == 0 || n == 0)
-		{
 			return 0;
-		}
 
-		if(dp[m - 1][n - 1] != -1)
-		{
-			return dp[m - 1][n - 1];
-		}
+		if(a[m - 1] == b[n - 1])
+			return 1 + lcs(a, b, m - 1, n - 1);
+		else	
+			return max(lcs(a, b, m, n - 1), lcs(a, b, m - 1, n));
+	}
 
-		if(a.charAt(m - 1) == b.charAt(n - 1))
-		{
-			dp[m - 1][n - 1] = 1 + lcs(a, b, m - 1, n - 1, dp);
-			return dp[m - 1][n - 1];
-		}
-		
-		else
-		{
-			int z = lcs(a, b, m, n - 1, dp), y = lcs(a, b, m - 1, n, dp);
-			dp[m - 1][n - 1] =  z > y ? z : y;
-			return dp[m - 1][n - 1];
-		}
-		
+	static int max(int a, int b){
+		return (a > b) ? a : b;
 	}
 	
 	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in);
-		String a = sc.nextLine().toLowerCase(), b = sc.nextLine().toLowerCase();
-		int maximum = a.length() * b.length(); 
-		int m = a.length(), n = b.length(), dp[][] = new int[m][maximum];
+		char a[] = sc.nextLine().toCharArray(), b[] = sc.nextLine().toCharArray();
 
-		for(int[] row : dp)
-		{
-			Arrays.fill(row, -1);
-		}
+		int m = a.length, n = b.length;
 
-		System.out.println("Length of LCS: " + lcs(a, b, m, n, dp));
+		System.out.println("Length of LCS: " + lcs(a, b, m, n));
 		sc.close();
 	}
 	

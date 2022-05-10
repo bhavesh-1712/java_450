@@ -1,6 +1,11 @@
 package DAA;
 import java.util.*;
 
+/**
+ * implement optimal storage tape using greedy approach
+ * 
+ * time complexity of Arrays.sort() = O(nlog(n))
+ */
 public class assignment_3
 {
 	public static void sol(int[] a, int n)
@@ -17,7 +22,7 @@ public class assignment_3
 		}
 		
 		System.out.println();
-		System.out.println("\nMRT = " + mrt);
+		System.out.println("\nMRT(Minimum Retrieval Time) = " + mrt);
 	}
 	
 	public static void main(String[] args)
