@@ -5,6 +5,12 @@ import java.util.*;
 /**
  * Write a recursive program to find the solution of placing n queens on chess board so that no queen takes each other 
  * (backtracking)
+ * 
+ * time complexity = O(n^2)
+ * 
+ * Note : This is the most well-known algorithm for solving N-Queen problem. 
+ * The time complexity is O(n^2) because we are selecting 
+ * if we can put or not put a Queen at that place. The space is the board size times the result.
  */
 public class assignment_6 {
     public static void p(int[][] a, int n) {

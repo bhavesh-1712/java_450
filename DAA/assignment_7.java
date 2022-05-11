@@ -5,6 +5,12 @@ import java.util.*;
 /**
  * Write a non-recursive program to check whether Hamiltonian path exists in undirected graph or not. If exists print it. 
  * (backtracking).
+ * 
+ * time complexity = O(2^n * n^2)
+ * 
+ * Note : Time complexity of the above algorithm is O(2^n * n^2). Depth first search and backtracking 
+ * can also help to check whether a Hamiltonian path exists in a graph or not. 
+ * Simply apply depth first search starting from every vertex v and do labeling of all the vertices.
  */
 public class assignment_7 {
     static void ham(int a[][], int n, int e) {

@@ -2,6 +2,15 @@ package DAA;
 
 import java.util.*;
 
+/**
+ * Print shortest path and cost for the directed graph  using bellman for algorithm
+ * 
+ * time complexity = O(E|V| - 1) 
+ * 
+ * Note : The time complexity of Bellman ford algorithm would be O(E|V| - 1). 
+ * The bellman ford algorithm does not produce a correct answer 
+ * if the sum of the edges of a cycle is negative.
+ */
 public class assignment_5
 {
 	public static void main(String[] args)

@@ -7,6 +7,8 @@ import java.util.Vector;
 /**
  * Write a program to solve the travelling salesman problem. Print the path and
  * the cost. (Branch and Bound).
+ * 
+ * time complexity = O(n^2)
  */
 public class assignment_8 {
     static int final_res = Integer.MAX_VALUE;

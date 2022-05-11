@@ -1,4 +1,4 @@
-// package DAA;
+package DAA;
 
 import java.util.Scanner;
 import java.util.Arrays;
