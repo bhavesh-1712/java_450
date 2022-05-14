@@ -100,10 +100,10 @@
 <p><a href="">25. Boyer Moore Algorithm for pattern searching.</a></p>
 <p><a href="">26. Converting roman numerals to decimal</a></p>
 <p><a href="">27. Longest common prefix</a></p>
-<p><a href="">28. </a></p>
-<p><a href="">29. </a></p>
-<p><a href="">30. </a></p>
-<p><a href="">31. </a></p>
+<p><a href="">28. Number of flips to make binary string alternate</a></p>
+<p><a href="">29. Find the first repeated word in string</a></p>
+<p><a href="">30. Minimum number of swaps for bracket balancing</a></p>
+<p><a href="">31. Find the longest common subsequence between two string</a></p>
 <p><a href="">32. </a></p>
 <p><a href="">33. </a></p>
 <p><a href="">34. </a></p>
