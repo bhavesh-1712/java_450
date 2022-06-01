@@ -104,8 +104,8 @@
 <p><a href="">29. Find the first repeated word in string</a></p>
 <p><a href="">30. Minimum number of swaps for bracket balancing</a></p>
 <p><a href="">31. Find the longest common subsequence between two string</a></p>
-<p><a href="">32. </a></p>
-<p><a href="">33. </a></p>
+<p><a href="">32. Program to generate all possible valid IP addresses from given string.</a></p>
+<p><a href="">33. Write a program to find the smallest window that contains all characters of string itself</a></p>
 <p><a href="">34. </a></p>
 <p><a href="">35. </a></p>
 <p><a href="">36. </a></p>
