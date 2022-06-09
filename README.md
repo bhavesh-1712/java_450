@@ -106,9 +106,9 @@
 <p><a href="">31. Find the longest common subsequence between two string</a></p>
 <p><a href="">32. Program to generate all possible valid IP addresses from given string.</a></p>
 <p><a href="">33. Write a program to find the smallest window that contains all characters of string itself</a></p>
-<p><a href="">34. </a></p>
-<p><a href="">35. </a></p>
-<p><a href="">36. </a></p>
+<p><a href="">34. Rearrange characters in a string such that no two adjacent are same</a></p>
+<p><a href="">35. Minimum characters to be added at front to make string palindrome</a></p>
+<p><a href="">36. Given a sequence of words, print all anagrams together</a></p>
 
 <p><a href="">8. </a></p>
 <p><a href="">8. </a></p>
