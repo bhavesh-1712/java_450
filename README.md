@@ -109,6 +109,14 @@
 <p><a href="">34. Rearrange characters in a string such that no two adjacent are same</a></p>
 <p><a href="">35. Minimum characters to be added at front to make string palindrome</a></p>
 <p><a href="">36. Given a sequence of words, print all anagrams together</a></p>
+<p><a href="">37. Find smallest window in a string containing all chracters of another string</a></p>
+<p><a href="">38. Recursively remove all adjacent duplicates</a></p>
+<p><a href="">39. </a></p>
+<p><a href="">40. </a></p>
+<p><a href="">41. </a></p>
+<p><a href="">42. </a></p>
+<p><a href="">43. </a></p>
+
 
 <p><a href="">8. </a></p>
 <p><a href="">8. </a></p>
