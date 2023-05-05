@@ -10,6 +10,7 @@ public class AFourTest {
 
         for(int i = 0; i < length; i++){
             String d = arr[i].split("@")[1];
+            ////alternate way u can split with '.' for more accuracy with .co, .in domain name
             String domainName = d.substring(0, d.length() - 4);
             
             if(!domain.containsKey(domainName)){
